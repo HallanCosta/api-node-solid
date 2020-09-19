@@ -3,10 +3,12 @@
     "target": "es2017",                    
     "module": "commonjs",
     "allowJs": true,
-    "strict": true,
+    "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": "src/**/*.ts"
+  "include":[
+    "src/**/*.ts"
+  ]
 }
